@@ -24,5 +24,9 @@ class Solution:
         
         return tuple(alpha)
     
+
+# We can also use counting sort for this scenario, please explore counting sort.
+# Also explore the approach 2 explained in leetcode editorial: https://leetcode.com/problems/group-anagrams/editorial/#approach-2-categorize-by-count.
+    
 solution = Solution()
 print("grouped anagrams: ", solution.groupAnagrams(["eat","tea","tan","ate","nat","bat"]))

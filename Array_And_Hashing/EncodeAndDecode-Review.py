@@ -20,7 +20,7 @@ class Codec:
 
         return encoded_str
             
-        
+# Read up the editorial in leetcode, not sure if this is a useful problem. editorial link : https://leetcode.com/problems/encode-and-decode-strings/editorial/.
 
     def decode(self, s: str) -> List[str]:
         """Decodes a single string to a list of strings.
